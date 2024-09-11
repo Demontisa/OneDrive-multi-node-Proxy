@@ -23,7 +23,7 @@ tar -zxvf onedrive-proxy-linux-amd64.tar.gz
 ```shell
 cd onedrive-proxy-linux-amd64
 ```
-- 修改 `config/config.json`, `cn_mobile` -> `中国移动`, `cn_uni` -> `中国联通`, `cn_tele` -> `中国电信`, `cn_guangdian` -> `中国广电`, `other` -> `其他`
+- 修改 `config/config.json`, `cn_mobile` -> `中国移动`, `cn_uni` -> `中国联通`, `cn_tele` -> `中国电信`, `other` -> `其他`
 ```json
 {
   "url_config": {
@@ -34,9 +34,6 @@ cd onedrive-proxy-linux-amd64
       "url": "https://you.domain.com"
     },
     "cn_tele": {
-      "url": "https://you.domain.com"
-    },
-    "cn_guangdian": {
       "url": "https://you.domain.com"
     },
     "other": {
